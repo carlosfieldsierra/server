@@ -1,0 +1,100 @@
+/*
+    Author: Carlos Field-Sierra
+    Description: This has all the styling for the 
+    index.html with the side bar with a slider
+    and button and table, and then the styling to make 
+    to blobs out of the divs on the right side
+ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: rgb(215, 0, 197);
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.topBar {
+  border-bottom: 10px solid rebeccapurple;
+
+  display: flex;
+  flex: 1;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100% 0% 68% 32% / 0% 29% 71% 100%;
+}
+
+.content {
+  display: flex;
+  flex: 10;
+}
+
+#title {
+  color: white;
+  font-size: 80px;
+}
+.selectLeft,
+.selectRight {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  width: 60%;
+  height: 5%;
+  margin-bottom: 15px;
+}
+.selectLeft {
+  margin-left: 80px;
+}
+#textAreaRight,
+#textAreaLeft {
+  text-align: center;
+  font-size: 30px;
+}
+#textAreaRight {
+  border-radius: 10px;
+  padding-top: 20px;
+
+  color: white;
+
+  background-color: black;
+  width: 80%;
+  height: 40%;
+}
+#textAreaLeft {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-left: 80px;
+  border-radius: 10px;
+  width: 80%;
+  height: 40%;
+}
+.leftSide {
+  background-color: rgb(229, 168, 240);
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 10px solid rebeccapurple;
+  border-left: 10px solid rebeccapurple;
+  border-radius: 100% 0% 97% 3% / 54% 100% 0% 46%;
+  display: flex;
+  flex: 1.2;
+}
+.rightSide {
+  background-color: rgb(229, 168, 240);
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 10px solid rebeccapurple;
+  display: flex;
+
+  flex: 1;
+}
